@@ -1,0 +1,416 @@
+html,body{
+	background-image: url("CHAMP.jpeg");
+	background-repeat: no-repeat;
+	margin:0;
+    padding:0;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    z-index: 1;
+    overflow: hidden;
+ 
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+/*MENU*/
+#menu{
+    background-color:#35291C;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 6em;
+    position: static;
+}
+
+#menu a{
+    color:#F4DF9F;
+    text-decoration: none;
+    font-family: "Copperplate 32BC";
+    font-size:16px;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#conteneur{
+    width: 950px;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    border : 1px solid black;
+}
+
+#barre{
+    color:#F4DF9F;
+}
+
+#accueil {
+    margin-left: 23.8%;
+}
+
+#connect {
+    margin-left: 39.2%;
+}
+/*page connexion*/
+
+#contenu{
+	height: 1000px;
+	width: 1500px;
+	margin:0 auto;
+	border-color: 1px solid #fff;
+	text-align: center;
+
+	
+	
+}
+
+#container{
+	
+	width: 300px;
+	height: 300px;
+	background-color: #fff;
+	opacity: 0.4;
+	border-radius: 10px;
+	margin: 0 auto;
+	z-index: 1;
+	display: inline-block;
+
+
+}
+
+
+#container:hover{
+	opacity:0.9;
+	cursor: pointer;
+
+}
+
+#espclient{
+
+	text-align: center;
+	z-index: 2;
+	width:150px;
+	height: 150px;
+
+}
+
+#espfourn:hover{
+	transform: rotate(5deg);
+
+
+}
+#espclient:hover{
+	transform: rotate(-5deg);
+
+}
+
+#espfourn{
+
+
+	text-align: center;
+	z-index: 2;
+	width:150px;
+	height: 150px;
+}
+#icone{
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+    text-align: center;
+    
+
+}
+#container2{
+	width: 300px;
+	height: 300px;
+	background-color: #fff;
+	opacity: 0.4;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: inline-block;
+	z-index: 1;
+	
+
+      
+}
+
+#container2:hover{
+	opacity:0.9;
+	cursor: pointer;
+
+}
+
+@font-face {
+  font-family: "Copperplate 32BC";
+  src: local("Copperplate-Gothic-Std-32-BC_11852"),
+       local("Copperplate-Gothic-Std-32-BC_11852"),
+       url(Copperplate-Gothic-Std-32-BC_11852.ttf);
+  font-weight: bold;
+}
+
+
+/*CHOIX PAGE DE CONNEXION ESPACE CLIENT*/
+
+#conteneurclient{
+	width: 900px;
+	height: 500px;
+	margin-left: 250px;
+	background-color:#fff;
+	opacity: 0.4;
+	box-shadow: 0 0 2px #000;
+	z-index: 1;
+
+
+}
+
+/*p{
+	font-family: "Copperplate 32BC";
+	color: #35291C;
+	margin-top: 20px;
+	position: absolute;
+	z-index: 2;
+	margin-left: 100px;
+
+}*/
+
+#identclient{
+	z-index: 2;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 25px;
+
+}
+
+#login{
+	z-index: 3;
+	position: absolute;
+	margin-top: -400px;
+	margin-left: 350px;
+}
+
+fieldset{
+	border-style: none;
+}
+
+input{
+	width: 300px;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+#mdp{
+	margin-top: 30px;
+	z-index: 3;
+	position: absolute;
+	font-family: "Copperplate 32BC";
+	text-decoration: none;
+	color: inherit;
+
+}
+
+
+#mdp:hover{
+	text-shadow:1px 1px 1px  #000;
+	color: #fff;
+}
+
+#iconemdp{
+	width: 50px;
+	height: 40px;
+	z-index: 4;
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 30px;
+}
+#iconeespclient{
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+    margin-left: 850px;
+    margin-top:-10px;
+    position: absolute;
+    z-index: 4;
+
+}
+/*#iconeespclient{
+	width: 80px;
+	height: 80px;
+}
+#iconeespclient:hover{
+	transform:rotate(5deg);
+	width: 80px;
+	height: 80px;
+
+}*/
+#iconeuser{
+	width: 30px;
+	height: 30px;
+	z-index: 4;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 40px;
+}
+input{
+	font-family: "Copperplate 32BC";
+	text-align: center;
+	border-radius: 5px;	
+	border: 2px solid #fff;
+}
+
+input:hover{
+	box-shadow: 1px 1px 2px #000;
+}
+#submit{
+	color: #35291C;
+	text-shadow:1px 1px 1px  #000;
+}
+#submit:hover{
+	font-size: 15px;
+}
+#brush{
+	width: 300px;
+	height:300px;
+	margin-top: -30px;
+	margin-left: 760px;
+	position: absolute;
+	z-index: 3;
+	transform:rotate(6deg);
+}
+
+#brush:hover{
+	transform:rotate(5deg);
+}
+
+#slider>p{
+	margin-left: 95px;
+	font-family: "Copperplate 32BC";
+	color:#F4DF9F;
+	text-shadow:#35291C;
+}
+
+
+/*FORMULAIRE FOURNISSEUR*/
+
+#page {
+    min-height: 100%;
+    position: relative;
+}
+#inputprod{
+	height: 30px;
+	margin-left: 160px;
+	margin-top: -30px;
+	margin-bottom: 20px;
+	z-index: 2;
+}
+
+#mail2,#mdp2{
+	height:30px;
+	z-index: 2;
+	margin-left: 40px;
+}
+#valider{
+	color: #35291C;
+	height: 35px;
+	width: 200px;
+	text-shadow:1px 1px 1px  #000;
+}
+#valider:hover{
+	font-size: 15px;
+}
+label
+{
+	display: block;
+	text-align: left;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 30px;
+	z-index: 2;
+	
+}
+#carrefond{
+	width: 899px;
+	height: 700px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-left: 300px;
+	margin-top: 10px;
+	opacity: 0.5;
+	z-index: 1;
+
+}
+#formulaire{
+	margin-top: -650px;
+	margin-left: 350px;
+	position: absolute;
+	z-index: 4;
+	font-family: "Copperplate 32BC";
+
+}
+#erreur{
+	font-weight: bolder;
+	z-index: 1;
+}
+#inscripfourn{
+	margin-top: 10px;
+	margin-left: 280px;
+	position: absolute;
+	z-index: 5;
+}
+#global{
+	overflow: auto;
+}
+#brush{
+	width: 300px;
+	height:300px;
+	margin-top: -30px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 3;
+	transform:rotate(6deg);
+}
+
+#brush:hover{
+	transform:rotate(5deg);
+}
+
+/*
+@media (max-width: 780px) {
+#menu a{
+    color:#F4DF9F;
+    text-decoration: none;
+    font-family: "Copperplate 32BC";
+    font-size:10px;
+}
+    #accueil{
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    #connect{
+    	margin-left: 50px;
+    	font-size: 16px;
+    }
+ }
+
+ @media (max-width: 300px) {
+ 	#menu a{
+    color:#F4DF9F;
+    text-decoration: none;
+    font-family: "Copperplate 32BC";
+    font-size:10px;
+}
+    #accueil{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    #connect{
+    	margin-left: 50px;
+    	font-size: 10px;
+    }
+ }
